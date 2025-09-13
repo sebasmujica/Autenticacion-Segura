@@ -1,0 +1,93 @@
+# --- Dependencias ---
+node_modules/
+
+# --- Builds / artefactos ---
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vercel/
+.netlify/
+.tmp/
+temp/
+tmp/
+.cache/
+.parcel-cache/
+.nyc_output/
+coverage/
+*.map
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.pid
+*.pid.lock
+*.seed
+
+# --- Variables de entorno (mantén un .env.example) ---
+.env
+.env.* 
+!.env.example
+
+# --- Bases de datos / dumps ---
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+*.sdb
+*.sqlite-wal
+*.sqlite-shm
+data.db
+database/
+db/
+dump.sql
+*.sql
+
+# --- Subidas locales (si las generás en runtime) ---
+uploads/
+public/uploads/
+storage/
+
+# --- Cachés y reportes de linters/tests ---
+.eslintcache
+.stylelintcache
+.jest/
+jest-html-reporters-*/
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- IDE/Editor ---
+.vscode/
+.idea/
+*.iml
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Certificados / claves ---
+*.pem
+*.key
+*.crt
+*.pfx
+
+# --- Archivos empaquetados ---
+*.tgz
+*.zip
+*.tar
+
+# --- Opcional (NO recomendado): ignorar lockfiles ---
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lockb
+
+# --- Opcional (MUY NO recomendado): ignorar package.json ---
+# package.json

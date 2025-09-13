@@ -1,0 +1,8 @@
+<!-- views/admin.ejs -->
+<form method="post" action="/admin/promote">
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+    <label>Email a promover</label>
+    <input name="email" type="email" required>
+    <button type="submit">Promover a admin</button>
+  </form>
+  
